@@ -24,5 +24,5 @@ Vendégek: ${data.get('guests')}
 ${data.get('message')}`
   );
   // Ezt az e-mail címet élesítéskor a zenekar valódi címére kell cserélni.
-  window.location.href = `mailto:hellokidsband@gmail.com?subject=${subject}&body=${body}`;
+  window.location.href = `mailto:hellokids2000@gmail.com?subject=${subject}&body=${body}`;
 });
